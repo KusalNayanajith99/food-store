@@ -1,30 +1,43 @@
-# FoodmineCourse
+# Food-Store
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
+This project is a food-store application built using Angular. It allows users to order food from different restaurants and have it delivered to their location.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+To run this project on your local machine, follow these steps:
 
-## Code scaffolding
+1. Clone the repository: `git clone https://github.com/KusalNayanajith99/food-store.git`
+2. Install dependencies: `npm install`
+3. Run the application: `ng serve`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Features
 
-## Build
+- User authentication and authorization
+- Browse restaurants and menus
+- Search for specific dishes
+- Add items to cart
+- Place orders
+- Real-time order tracking
+- Payment processing
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Technologies Used
 
-## Running unit tests
+- Angular
+- TypeScript
+- HTML/CSS
+- Firebase
+- Stripe
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Contributing
 
-## Running end-to-end tests
+If you'd like to contribute to this project, please follow these steps:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Fork the repository
+2. Create a new branch: `git checkout -b your-feature`
+3. Make your changes and commit them: `git commit -am 'Add your feature'`
+4. Push to the branch: `git push origin your-feature`
+5. Submit a pull request
 
-## Further help
+## License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-
-
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
